@@ -1,0 +1,31 @@
+* {margin: 0}
+body {background: url(img/bg-all.png) fixed top center no-repeat #444; letter-spacing: 1px}
+a {color: #000; margin-bottom: 4px; display: inline-block}
+a:hover {color: #444; text-decoration: none}
+#cv-2011-2 {overflow: hidden; height: 550px; width: 1024px; margin-left: -512px; margin-top: -275px; position: absolute; top: 50%; left: 50%; -moz-box-shadow: 10px 10px 20px #222; -webkit-box-shadow: 10px 10px 20px #222; box-shadow: 10px 10px 20px #222;}
+#cv-2011-2.index {background: url(img/bg.png) top center no-repeat #fff;} 
+#cv-2011-2.else {background: url(img/bg-else.png) top center no-repeat #fff;} 
+#cv-img {position: absolute; top: 0; left: 0}
+div.image {position: absolute; right: 0; bottom: 0; opacity: 0.8}
+div.image img {margin-bottom: -10px;}
+div.image.fin img {margin-bottom: -80px;margin-right: -180px; opacity: 0.3}
+div.story.front {position: absolute; bottom: 100px !important; left: 50px !important}
+div.story.all {position: absolute; top: 80px; right: 100px; width: 400px}
+div.leftcol {display: inline-block; vertical-align: top; width: 195px}
+p.layouttekst-hele {font-family: 'Josefin Sans', Verdana, Arial, sans-serif; position: relative}
+span.info {position: relative; left:145px;}
+span.info.noleft {left: 3px; font-weight: 600}
+span.date {width: 135px; display: inline-block;}
+span.date span.first, span.date span.third {width: 45px; display: inline-block}
+span.date span.first, span.date span.second {margin-right: 15px}
+span.date span.second {width: 10px; display: inline-block; text-align: center}
+span.date span.third {text-align: right}
+span.heading {font-family: 'Quattrocento', Times, 'Times New Roman', serif; display: inline-block}
+span.heading-main {font-family: 'Quattrocento', Times, 'Times New Roman', serif; margin-bottom: 10px; display: inline-block; font-size: 20px}
+a.rightflip {position: absolute;right: 0;bottom: 0; padding: 510px 20px 40px 20px;}
+a.rightflip:hover {background: url(img/flipright.png) no-repeat bottom right}
+a.leftflip {position: absolute;left: 0;bottom: 0; padding: 510px 20px 40px 20px;}
+a.leftflip:hover {background: url(img/flipleft.png) no-repeat bottom left}
+#footer {position: fixed; bottom: 0px; font-family: 'Quattrocento', Times, 'Times New Roman', serif;text-align: center;font-size: 11px;width: 1024px;padding: 10px 0 5px; background: #555;box-shadow: 0 -5px 20px #222;-moz-box-shadow: 0 -5px 20px #222; -webkit-box-shadow: 0 -5px 20px #222}
+#footer a {padding: 0 10px;}
+#skypedetectionswf {visibility: hidden}
